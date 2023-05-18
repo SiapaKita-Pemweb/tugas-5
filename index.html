@@ -1,0 +1,79 @@
+<!--
+
+- Project: ITTS Calculator Apps
+- Version: 1.5
+- Last changed: May 17, 2023
+- Assigned to: Group 3 (a.k.a Rey Dylanza, Salman, Thomas Andre, Naufal Amar, Rahmat)
+- Supported: ITTS & Catkay Development Inc.
+- Primary use:  Yes
+
+Copyright 2023 Group 3 (Under licensed PT. Catkay Corporation Tbk.)
+
+https://about.catkay.com/privacy-tos
+
+!!! Anyone, whether permission or without permission, is strictly prohibited from using the entire code included below. !!!
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta charset="UTF-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    	<meta name="description" content="Calculator Apps">
+    	<meta name="author" content="Copyright © 2023 ITTS x Catkay Development Inc.">
+    	<link rel="preconnect" href="https://fonts.gstatic.com">
+		<title>Calculator Apps</title>
+		<link rel="stylesheet" href="style.css">
+		<link rel='icon' type='image/x-icon' href='https://dl.dropboxusercontent.com/s/bkvcwogwtilma8w/catners-icon-trp.png' />
+	</head>
+	<body>
+		<div class="header">
+			<a href="#default" class="logo"><img src="assets/IT-new.png" style="width: 10%;	height: 10%;"></a>
+			<div class="header-right">
+			</div>
+		</div>
+		<div class="container">
+			<div class="calculator">
+				<input type="text" name="screen" id="answer" readonly>
+				<br><br>
+				<table>
+					<tr>
+						<td><button class="button-operate">(</button></td>
+						<td><button class="button-operate">)</button></td>
+						<td><button class="button-operate">%</button></td>
+						<td><button style="background-color: #f01600; font-weight: bold; font-size: 40pt; color: #ecf0f1;">C</button></td>
+					</tr>
+					<tr>
+						<td><button class="button-number">7</button></td>
+						<td><button class="button-number">8</button></td>
+						<td><button class="button-number">9</button></td>
+						<td><button class="button-operate">/</button></td>
+					</tr>
+					<tr>
+						<td><button class="button-number">4</button></td>
+						<td><button class="button-number">5</button></td>
+						<td><button class="button-number">6</button></td>
+						<td><button class="button-operate">X</button></td>
+					</tr>
+					<tr>
+						<td><button class="button-number">1</button></td>
+						<td><button class="button-number">2</button></td>
+						<td><button class="button-number">3</button></td>
+						<td><button class="button-operate">-</button></td>
+					</tr>
+					<tr>
+						<td><button class="button-number">0</button></td>
+						<td><button class="button-operate">.</button></td>
+						<td><button style="background-color: #01c653; font-weight: bold; font-size: 40pt; color: #ecf0f1;">=</button></td>
+						<td><button class="button-operate">+</button></td>
+					</tr>
+				</table>
+				<br><br>
+				<div class="footer-text">© <script>document.write(new Date().getFullYear());</script> ITTelkom Surabaya | All Rights Reserved.</div>
+			</div>
+		</div>
+	</body>
+	<script src="calc.js"></script>
+</html>
